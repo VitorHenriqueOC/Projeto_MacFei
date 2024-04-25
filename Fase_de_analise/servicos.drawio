@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-04-25T23:37:21.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dTegF8LEPP3TgTdIHise" version="24.2.2" type="device">
+  <diagram name="Página-1" id="GQdDITl1qou1usa8zefw">
+    <mxGraphModel dx="1195" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-1" value="&amp;lt;&amp;lt; Cardápio &amp;gt;&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-2" value="+ visualizar_cardapio&lt;div&gt;+ atualizar_cardapio&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="CzlGGYQLgZ0H3uBS0Ata-1">
+          <mxGeometry x="10" y="31" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-3" value="&amp;lt;&amp;lt; Realizar pedido &amp;gt;&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ selecionar_itens_cardapio&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ inserir_horario_retirada&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ visualizar_pedido&lt;br&gt;+ cancelar_pedido&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="CzlGGYQLgZ0H3uBS0Ata-3">
+          <mxGeometry x="10" y="40" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-6" value="&amp;lt;&amp;lt; Gerenciar pagamento &amp;gt;&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-7" value="&lt;div&gt;- inserir_dados_pagamento&lt;/div&gt;&lt;div&gt;- validar_dados_pagamento&lt;/div&gt;&lt;div&gt;- enviar_dados_API&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="CzlGGYQLgZ0H3uBS0Ata-6">
+          <mxGeometry x="10" y="31" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-8" value="&amp;lt;&amp;lt; Mensageria &amp;gt;&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="395" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-9" value="&lt;div&gt;+ notificar_cliente&lt;/div&gt;&lt;div&gt;+ notificar_lanchonete&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="CzlGGYQLgZ0H3uBS0Ata-8">
+          <mxGeometry x="30" y="41" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlGGYQLgZ0H3uBS0Ata-13" value="" style="endArrow=none;startArrow=oval;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=-0.012;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.189;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startFill=0;dashed=1;" edge="1" parent="1" source="CzlGGYQLgZ0H3uBS0Ata-4" target="CzlGGYQLgZ0H3uBS0Ata-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
